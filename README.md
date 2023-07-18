@@ -1,9 +1,7 @@
 # Calculadora IC
 Ferramenta adotada para auxílio de alunos dos cursos de computação IC - UFAL
 
-## Link do site hospedado:
-
-http://calculadoraic.herokuapp.com/index.html
+[Link do site hospedado](https://raksantos.github.io/calculadora-ic/)
 
 ## Matéria no site da UFAL:
 

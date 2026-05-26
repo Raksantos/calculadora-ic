@@ -1,0 +1,102 @@
+# ============================================================
+# Node / JavaScript
+# ============================================================
+
+# Dependências
+node_modules/
+jspm_packages/
+bower_components/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Runtime / cache
+.npm
+.eslintcache
+.stylelintcache
+.cache/
+.parcel-cache/
+.next/
+.nuxt/
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.tern-port
+
+# Build / output
+dist/
+build/
+out/
+coverage/
+*.tsbuildinfo
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+
+# Lock files de gerenciadores que você não usa (descomente se aplicável)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# ============================================================
+# PHP (composer)
+# ============================================================
+/vendor/
+composer.phar
+
+# ============================================================
+# Editores / IDEs
+# ============================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ============================================================
+# Sistema operacional
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ============================================================
+# Ferramentas de IA / LLM
+# ============================================================
+.claude/
+.claude.json
+.claude.local.json
+CLAUDE.local.md
+.cursor/
+.cursorignore
+.cursorrules
+.aider*
+.continue/
+.windsurf/
+.windsurfrules
+.codeium/
+.github/copilot/
+.tabnine/
+.cody/
+.zed/
+.roo/
+.cline/

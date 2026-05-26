@@ -49,6 +49,9 @@
                 <li class="nav-item">
                     <a class="nav-link" href="passagens.html">Passagens</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sobre.html">Sobre</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -68,7 +71,24 @@
             <a class="btn btn-light mt-2" href="almoco.html" role="button">Almoço <i class="fa fa-cutlery"></i></a>
             <a class="btn btn-light mt-2" href="cafe.html" role="button">Café <i class="fa fa-coffee"></i></a>
             <a class="btn btn-light mt-2" href="passagens.html" role="button">Passagens <i class="fa fa-bus"></i></a>
+            <a class="btn btn-light mt-2" href="sobre.html" role="button">Sobre <i class="fa fa-info-circle"></i></a>
         </main>
+    </div>
+
+    <!-- Modal de boas-vindas (auto-fecha em 3s) -->
+    <div class="modal fade" id="welcomeModal" tabindex="-1" role="dialog" aria-labelledby="welcomeModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar"
+                    style="position: absolute; top: 8px; right: 12px; z-index: 1;">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body text-center p-4">
+                    <h5 class="mb-3" id="welcomeModalLabel">Pela esperança de um futuro próspero do IC, estamos de volta</h5>
+                    <button type="button" class="btn btn-info btn-sm" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
     </div>
 
     <footer>
@@ -95,6 +115,14 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#welcomeModal').modal('show');
+            setTimeout(function () {
+                $('#welcomeModal').modal('hide');
+            }, 3000);
+        });
+    </script>
 </body>
 
 </html>
